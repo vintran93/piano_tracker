@@ -1,27 +1,43 @@
-Specs:
+# Piano Tracker
 
- x Use Sinatra to build the app
- x Use ActiveRecord for storing information in a database
- x Include more than one model class (e.g. User, Post, Category)
- x Include at least one has_many relationship on your User model (e.g. User has_many Posts)
- x Include at least one belongs_to relationship on another model (e.g. Post belongs_to User)
- x Include user accounts with unique login attribute (username or email)
- x Ensure that the belongs_to resource has routes for Creating, Reading, Updating and Destroying
- x Ensure that users can't modify content created by other users
- x Include user input validations
- BONUS - not required - Display validation failures to user with error message (example form URL e.g. /posts/new)
- Your README.md includes a short description, install instructions, a contributors guide and a link to the license for your code
- A README is often the first item a visitor will see when visiting your repository. README files typically include information on:
+Looking to learn some piano songs that you really like? Check out some free piano sheet music and keep track of songs you want to learn!
 
-What the project does
-Why the project is useful
-How users can get started with the project
-Where users can get help with your project
-Who maintains and contributes to the project
 
-Confirm
+## Installation
 
- You have a large number of small Git commits
- Your commit messages are meaningful
- You made the changes in a commit that relate to the commit message
- You don't include changes in a commit that aren't related to the commit message
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'piano_tracker'
+```
+
+And then execute:
+
+    $ bundle install
+
+Or install it yourself as:
+
+    $ gem install piano_tracker
+
+## Usage
+
+TODO: Write usage instructions here
+
+## Development
+
+After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/piano_tracker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/piano_tracker/blob/master/CODE_OF_CONDUCT.md).
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the PianoTracker project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/piano_tracker/blob/master/CODE_OF_CONDUCT.md).
+

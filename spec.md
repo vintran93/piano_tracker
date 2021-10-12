@@ -8,8 +8,8 @@ Specs:
  x Include user accounts with unique login attribute (username or email)
  x Ensure that the belongs_to resource has routes for Creating, Reading, Updating and Destroying
  x Ensure that users can't modify content created by other users
- x Include user input validations
- x BONUS - not required - Display validation failures to user with error message (example form URL e.g. /posts/new)
+ x Include user input validations (Validate user input so bad data cannot be persisted to the database.)
+ BONUS - not required - Display validation failures to user with error message (example form URL e.g. /posts/new)
  Your README.md includes a short description, install instructions, a contributors guide and a link to the license for your code
  A README is often the first item a visitor will see when visiting your repository. README files typically include information on:
 
