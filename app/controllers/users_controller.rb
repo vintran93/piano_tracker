@@ -25,8 +25,8 @@ class UsersController < ApplicationController
 			user.save
 			redirect "/login"
 		else
+
 			redirect "/failure"
-        	flash[:messsage] = "Invalid login"
 		end
     end	
 
@@ -48,8 +48,8 @@ class UsersController < ApplicationController
 		    	session[:user_id] = user.id
 		    	redirect "/account"
 			else
-		    	redirect "/failure"
-        		flash[:message] = "Invalid login"
+		    	flash[:message] = flash[:messsage] = "We're sorry but you may have entered invalid login credentials."
+				redirect "/failure"
 			end
     	end
 	end 
