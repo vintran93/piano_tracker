@@ -23,3 +23,17 @@ Welcome to Piano Tracker! Here users can keep track of piano sheet music from th
 7. On the song show page, click on 'Sheet Music' to be redirected to the page containing the piano sheet music.
 
 Now you are ready to learn every piano song you desire!
+
+## Built using
+
+Ruby
+Corneal Gem
+Sinatra
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[vintran93]/austin_trails.
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT) @ [vintran93]
