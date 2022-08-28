@@ -26,9 +26,7 @@ Now you are ready to learn every piano song you desire!
 
 ## Built using
 
-Ruby
-Corneal Gem
-Sinatra
+Ruby | Corneal Gem | Sinatra
 
 ## Contributing
 
