@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <title>PianoTracking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+
+<h1> <%= @song.name %> </h1>
+<h3> By:  <a href="/artists/<%= @song.artist.slug %>"> <%= @song.artist.name %> </a> </h3>
+<br/>
+<h3> Genre:  <% @song.genres.each do |genre| %>
+  <a href="/genres/<%= genre.slug %>"><%= genre.name %> </a>
+<% end %> </h3>
+<br/>
+<h3>
+  <%= (link_to "https://sheetmusic-free.com/#{@song.slug}-sheet-music-#{@song.artist.slug}/",
+    'Sheet Music',
+    target: '_blank')
+  %>
+</h3>
+<br/>
+<% if @song.user_id == current_user.id %>
+  <a href="/songs/<%= @song.slug %>/edit">Edit</a>
+<% end %>
+<br/>
+<br/>
+<a href='/songs'>Songs</a>
+<br/>
+<br/>
+<a href="/account">Menu</a>
+<br/>
+  </body>
+</html>
