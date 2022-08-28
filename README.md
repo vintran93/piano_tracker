@@ -26,7 +26,7 @@ Now you are ready to learn every piano song you desire!
 
 ## Built using
 
-Ruby | Corneal Gem | Sinatra Gem [DLS](https://en.wikipedia.org/wiki/Domain-specific_language)
+Ruby | Corneal Gem | Sinatra Gem [DSL](https://en.wikipedia.org/wiki/Domain-specific_language)
 
 ## Contributing
 
