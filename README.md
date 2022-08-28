@@ -8,9 +8,9 @@ Welcome to Piano Tracker! Here users can keep track of piano sheet music from th
 
 1. Clone the app into your repository.
 
-2. Run bundle install.
+2. Run bundle install in root directory.
 
-3. Run shotgun to start the app.
+3. In root directory, run shotgun to start the app.
 
 4. Create an account by clicking on Sign Up.
 
