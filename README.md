@@ -30,7 +30,7 @@ Ruby | Corneal Gem | Sinatra Gem [DSL](https://en.wikipedia.org/wiki/Domain-spec
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[vintran93]/austin_trails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[vintran93]/piano_tracker.
 
 ## License
 
