@@ -23,7 +23,7 @@ group :test do
   gem 'database_cleaner'
 end
 
-group :development do
+group :development, :test do
   gem 'sqlite3', '~> 1.3.6'
 end 
 
