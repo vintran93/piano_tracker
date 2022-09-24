@@ -1,0 +1,8 @@
+<a href="/account">Menu</a>
+<br/>
+<br/>
+<% @genres.each do |genre| %>
+  <li><a href="/genres/<%= genre.slug %>"> <%= genre.name %> </a>
+
+  </li>
+<% end %>
