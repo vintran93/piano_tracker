@@ -129,7 +129,6 @@ GEM
       sinatra (>= 1.0)
     sinatra-flash (0.3.0)
       sinatra (>= 1.0.0)
-    sqlite3 (1.5.0-x86_64-linux)
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -168,7 +167,6 @@ DEPENDENCIES
   sinatra
   sinatra-activerecord
   sinatra-flash
-  sqlite3
   thin
   tux
 

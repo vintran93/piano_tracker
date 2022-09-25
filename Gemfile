@@ -28,7 +28,7 @@ end
 #   gem 'sqlite3'
 # end 
 
-gem 'sqlite3', :group => :development
+# gem 'sqlite3', :group => :development
 
 group :production do 
 	gem 'pg'
