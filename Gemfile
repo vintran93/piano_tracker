@@ -6,7 +6,7 @@ gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'rake'
 gem 'require_all'
 gem 'railties', '~> 5.0', '>= 5.0.0.1'
-gem 'pg'
+gem 'sqlite3'
 
 gem 'thin'
 gem 'shotgun'
@@ -24,9 +24,9 @@ group :test do
   gem 'database_cleaner'
 end
 
-# group :development do
-#   gem 'sqlite3'
-# end 
+group :development do
+  gem 'sqlite3'
+end 
 
 # gem 'sqlite3', :group => :development
 

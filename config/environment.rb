@@ -6,11 +6,6 @@ Bundler.require(:default, ENV['SINATRA_ENV'])
 configure :development do
   set :database_file, "./database.yml"
 
-  ActiveRecord::Base.establish_connection(
-  :adapter => "sqlite3",
-  :database => "db/#{ENV['SINATRA_ENV']}.sqlite"
-  )
-
 end
 
 def fi_check_migration
@@ -23,6 +18,11 @@ Migrations are pending. To resolve this issue, run:
 EX_MSG
   end
 end
+
+ActiveRecord::Base.establish_connection(
+  :adapter => "sqlite3",
+  :database => "db/#{ENV['SINATRA_ENV']}.sqlite"
+)
 
 
 
