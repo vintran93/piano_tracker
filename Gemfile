@@ -24,11 +24,12 @@ group :test do
   gem 'database_cleaner'
 end
 
-group :development, :test do
-  gem 'sqlite3', '~> 1.3.6'
-end 
+# group :development do
+#   gem 'sqlite3'
+# end 
+
+gem 'sqlite3', :group => :development
 
 group :production do 
 	gem 'pg'
-	gem 'rails_12factor', '~> 0.0.3'
 end
