@@ -2,13 +2,14 @@ ENV['SINATRA_ENV'] ||= "development"
 
 require 'bundler/setup'
 require 'active_record'
-
+config.assets.compile = true
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 configure :development do
   set :database_file, "./database.yml"
-
 end
+
+# config.serve_static_assets = true
 
 def fi_check_migration
   begin
@@ -28,10 +29,9 @@ ActiveRecord::Base.establish_connection(
 
 ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
-
 configure :production do
   db = URI.parse(ENV['DATABASE_URL'] || 'postgres:///localhost/mydb')
- 
+  
   ActiveRecord::Base.establish_connection(
     :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
     :host     => db.host,
