@@ -6,7 +6,7 @@ gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'rake'
 gem 'require_all'
 gem 'railties', '~> 5.0', '>= 5.0.0.1'
-gem 'sqlite3'
+# gem 'sqlite3'
 
 gem 'thin'
 gem 'shotgun'
