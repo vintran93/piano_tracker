@@ -17,3 +17,4 @@ use GenresController
 use ArtistsController
 use SongsController
 run ApplicationController
+run Sinatra::Application

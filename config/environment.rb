@@ -1,6 +1,8 @@
 ENV['SINATRA_ENV'] ||= "development"
 
 require 'bundler/setup'
+require 'active_record'
+
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 configure :development do
@@ -24,6 +26,7 @@ ActiveRecord::Base.establish_connection(
   :database => "db/#{ENV['SINATRA_ENV']}.sqlite"
 )
 
+ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
 
 configure :production do
