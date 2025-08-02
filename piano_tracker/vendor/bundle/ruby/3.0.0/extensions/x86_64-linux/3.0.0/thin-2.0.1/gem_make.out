@@ -1,0 +1,17 @@
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/thin-2.0.1/ext/thin_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250801-115516-bwgman.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/thin-2.0.1/ext/thin_parser
+make DESTDIR\= clean
+
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/thin-2.0.1/ext/thin_parser
+make DESTDIR\=
+compiling parser.c
+compiling thin.c
+linking shared-object thin_parser.so
+
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/thin-2.0.1/ext/thin_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 thin_parser.so ./.gem.20250801-115516-2hc0ei

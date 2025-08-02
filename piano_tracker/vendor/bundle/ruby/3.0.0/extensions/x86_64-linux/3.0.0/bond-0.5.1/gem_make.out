@@ -1,0 +1,16 @@
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/bond-0.5.1/ext/readline_line_buffer
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250801-115516-c2wpd0.rb extconf.rb
+
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/bond-0.5.1/ext/readline_line_buffer
+make DESTDIR\= clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/bond-0.5.1/ext/readline_line_buffer
+make DESTDIR\=
+echo "This is a dummy extension"
+This is a dummy extension
+
+current directory: /home/vintran/projects/piano_tracker/piano_tracker/vendor/bundle/ruby/3.0.0/gems/bond-0.5.1/ext/readline_line_buffer
+make DESTDIR\= install
+echo "This is a dummy extension"
+This is a dummy extension
